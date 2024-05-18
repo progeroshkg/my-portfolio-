@@ -1,0 +1,28 @@
+.custom-footer {
+    position: fixed; /* Фиксированное позиционирование */
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 20px 0; /* Внутренний отступ сверху и снизу */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Тень */
+    transition: box-shadow 0.3s ease; /* Плавное изменение тени */
+  }
+  
+  .custom-footer:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8); /* Увеличенная тень при наведении */
+  }
+  
+  .custom-footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .custom-footer .text-center {
+    margin-bottom: 10px; /* Отступ снизу */
+  }
+  
+  .custom-footer .text-center:last-child {
+    font-size: 14px; /* Размер шрифта для копирайта */
+  }

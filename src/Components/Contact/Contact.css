@@ -1,0 +1,95 @@
+/* Основной контейнер */
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Заголовок */
+  .contact-container h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Группа формы */
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  /* Лейбл формы */
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Поля ввода */
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Поля ввода при фокусе */
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+  }
+  
+  /* Кнопка отправки */
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Кнопка отправки при наведении */
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Контейнер кнопок звонка и WhatsApp */
+  .contact-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Стили для кнопок звонка и WhatsApp */
+  .contact-options button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .call-btn {
+    background-color: #007bff; /* Цвет кнопки для звонка */
+    color: #fff; /* Цвет текста кнопки для звонка */
+  }
+  
+  .whatsapp-btn {
+    background-color: #25d366; /* Цвет кнопки для WhatsApp */
+    color: #fff; /* Цвет текста кнопки для WhatsApp */
+  }
+  

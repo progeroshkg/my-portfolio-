@@ -1,0 +1,60 @@
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow-y: auto; /* Добавляем вертикальный скролл */
+}
+
+.projects-header {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+  transform-style: preserve-3d; /* Preserve 3D transformations */
+}
+
+.project-card:hover {
+  transform: translateY(-5px) rotateX(2deg) rotateY(2deg); /* Add slight 3D rotation on hover */
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.project-details {
+  padding: 20px;
+  transform: translateZ(20px); /* Push details slightly towards the viewer */
+  backface-visibility: hidden; /* Hide the backface of details for better performance */
+}
+
+.project-details h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.project-details p {
+  margin-bottom: 15px;
+}
+
+.project-details a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-details a:hover {
+  text-decoration: underline;
+}

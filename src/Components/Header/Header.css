@@ -1,0 +1,18 @@
+.custom-navbar {
+    background-color: #343a40; /* Цвет фона */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Тень */
+  }
+  
+  .custom-navbar .navbar-brand {
+    color: #fff; /* Цвет текста для логотипа */
+  }
+  
+  .custom-navbar .navbar-nav .nav-link {
+    color: #fff; /* Цвет текста для ссылок */
+  }
+  
+  .custom-navbar .navbar-nav .nav-link:hover {
+    color: #17a2b8; /* Цвет текста при наведении */
+    transform: translateY(-3px); /* Эффект поднятия при наведении */
+  }
+  
